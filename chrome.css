@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: "Helvetica Neue",Helvetica;
+    min-width: 400px;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    /* border box allow the input field to accupy the 100% space sine padding left and right adds 20px to 100 */
+    box-sizing: border-box;
+    border: 1px solid hsl(131, 57%, 52%);
+    border-radius: 5px;
+}
+button{
+    color: rgb(222, 203, 203);
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: hsl(131, 57%, 52%);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#delete-btn{
+    background-color: white;
+    color: hsl(131, 57%, 52%);
+    border: 1px solid hsl(131, 57%, 52%);
+}
+button:hover{
+    background-color: hsl(131, 22%, 51%);
+    color: white;  
+}
+ul{
+list-style: none;
+padding: 0;
+margin-top: 20px;
+}
+li{
+margin-top: 10px;
+}
+li a{
+color:hsl(131, 57%, 52%)
+}
